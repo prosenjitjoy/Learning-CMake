@@ -1,0 +1,3 @@
+add_executable(calc_tui_test console_test.cpp)
+target_link_libraries(calc_tui_test PRIVATE calc_tui_static)
+AddTests(calc_tui_test)

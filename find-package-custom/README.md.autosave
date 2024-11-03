@@ -1,0 +1,7 @@
+### Install PQXX library
+```
+git clone https://github.com/jtv/libpqxx.git
+./configure
+make -j4
+sudo make install
+```
